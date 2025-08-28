@@ -1,0 +1,35 @@
+{
+  "name": "xlsx-diff-ts",
+  "version": "0.1.0",
+  "description": "TypeScript library for comparing differences between two XLSX files",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "example:simple": "ts-node examples/simple-example.ts",
+    "example:multi": "ts-node examples/multi-sheet-test.ts",
+    "example:original": "cd . && ts-node examples/example.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": ["excel", "xlsx", "diff", "compare", "typescript"],
+  "license": "MIT",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vulh1209/xlsx-diff-typescript"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "added_sheets": [],
+  "removed_sheets": [],
+  "modified_sheets": [
+    {
+      "sheet_name": "Employees",
+      "diff": [
+        {
+          "op": "Delete",
+          "old_index": 1,
+          "new_index": null,
+          "value": [
+            "John",
+            25,
+            "NYC",
+            "Active"
+          ]
+        },
+        {
+          "op": "Insert",
+          "old_index": null,
+          "new_index": 1,
+          "value": [
+            "John",
+            26,
+            "NYC",
+            "Active"
+          ]
+        },
+        {
+          "op": "Delete",
+          "old_index": 3,
+          "new_index": null,
+          "value": [
+            "Mike",
+            28,
+            "Boston",
+            "Inactive"
+          ]
+        },
+        {
+          "op": "Insert",
+          "old_index": null,
+          "new_index": 3,
+          "value": [
+            "Mike",
+            28,
+            "Seattle",
+            "Active"
+          ]
+        },
+        {
+          "op": "Insert",
+          "old_index": null,
+          "new_index": 4,
+          "value": [
+            "Sarah",
+            32,
+            "Denver",
+            "Active"
+          ]
+        }
+      ]
+    }
+  ],
+  "no_change_sheets": [],
+  "data": {
+    "old": {
+      "sheet_names": [
+        "Employees"
+      ],
+      "data": null
+    },
+    "new": {
+      "sheet_names": [
+        "Employees"
+      ],
+      "data": null
+    }
+  }
+}
