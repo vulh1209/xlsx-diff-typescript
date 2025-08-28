@@ -1,7 +1,7 @@
 {
-  "name": "xlsx-diff-ts",
-  "version": "0.1.0",
-  "description": "TypeScript library for comparing differences between two XLSX files",
+  "name": "xlsx-diff-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript library for comparing differences between two XLSX files using Myers diff algorithm",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,7 +12,17 @@
     "example:original": "cd . && ts-node examples/example.ts",
     "prepare": "npm run build"
   },
-  "keywords": ["excel", "xlsx", "diff", "compare", "typescript"],
+  "keywords": [
+    "excel",
+    "xlsx",
+    "diff",
+    "compare",
+    "typescript",
+    "myers-diff",
+    "workbook",
+    "spreadsheet"
+  ],
+  "author": "vulh <vule.dev@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "xlsx": "^0.18.5"
@@ -26,10 +36,19 @@
     "ts-jest": "^29.0.0"
   },
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "README.md",
+    "CLAUDE.md"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vulh1209/xlsx-diff-typescript"
+    "url": "git+https://github.com/vulh1209/xlsx-diff-typescript.git"
+  },
+  "homepage": "https://github.com/vulh1209/xlsx-diff-typescript#readme",
+  "bugs": {
+    "url": "https://github.com/vulh1209/xlsx-diff-typescript/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

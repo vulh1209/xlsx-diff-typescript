@@ -1,11 +1,18 @@
-# xlsx-diff-ts
+# xlsx-diff-typescript
 
 A TypeScript library for comparing differences between two XLSX files. This is a TypeScript port of the Rust xlsx-diff library, implementing the Myers diff algorithm for Excel file comparison.
 
 ## Installation
 
 ```bash
-npm install xlsx-diff-ts
+# NPM
+npm install xlsx-diff-typescript
+
+# Yarn  
+yarn add xlsx-diff-typescript
+
+# PNPM
+pnpm add xlsx-diff-typescript
 ```
 
 ## Features
@@ -22,7 +29,7 @@ npm install xlsx-diff-ts
 ### Basic Usage
 
 ```typescript
-import { diffXlsx } from 'xlsx-diff-ts';
+import { diffXlsx } from 'xlsx-diff-typescript';
 
 async function compareFiles() {
   const result = await diffXlsx('old.xlsx', 'new.xlsx');
@@ -33,7 +40,7 @@ async function compareFiles() {
 ### With Raw Data
 
 ```typescript
-import { diffXlsx } from 'xlsx-diff-ts';
+import { diffXlsx } from 'xlsx-diff-typescript';
 
 async function compareWithData() {
   const result = await diffXlsx('old.xlsx', 'new.xlsx', true);
@@ -44,7 +51,7 @@ async function compareWithData() {
 ### From Buffers
 
 ```typescript
-import { diffXlsxFromBuffer } from 'xlsx-diff-ts';
+import { diffXlsxFromBuffer } from 'xlsx-diff-typescript';
 import * as fs from 'fs';
 
 async function compareFromBuffers() {

@@ -1,0 +1,44 @@
+# Source files
+src/
+tests/
+examples/
+
+# Development files
+tsconfig.json
+jest.config.js
+*.tsbuildinfo
+
+# Test files
+**/*.test.ts
+**/*.test.js
+
+# Development dependencies
+node_modules/
+
+# Build artifacts not for distribution
+target/
+.rust/
+
+# Data files
+data/
+*.xlsx
+*.json
+
+# Git and IDE
+.git/
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

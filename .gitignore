@@ -4,3 +4,4 @@
 .rust
 node_modules
 dist
+PUBLISH_INSTRUCTIONS.md
